@@ -34,16 +34,16 @@ This project helps manage employees and provides authentication through login an
 
 2. Configure your MySQL database in application.properties:
 
-   spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
-   spring.datasource.username=root
-   spring.datasource.password=yourpassword
-   spring.jpa.hibernate.ddl-auto=update
+   spring.datasource.url=jdbc:mysql://localhost:3306/employee_db             
+   spring.datasource.username=root                
+   spring.datasource.password=yourpassword            
+   spring.jpa.hibernate.ddl-auto=update              
 
-3. Run the application:
+4. Run the application:
    
    mvn spring-boot:run
 
-4. Open your browser and go to:
+5. Open your browser and go to:
 
    http://localhost:8080
 
